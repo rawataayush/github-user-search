@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { StrictMode } from 'react'
+import SearchBar from './components/SearchBar';
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <StrictMode>
+      <SearchBar />
+    </StrictMode>
   )
 }
 
