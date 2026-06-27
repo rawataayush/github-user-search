@@ -6,7 +6,6 @@ A GitHub User Search application built with React, Axios, and Tailwind CSS. Sear
 
 🔗 Live URL: https://github-user-search-livid-sigma.vercel.app/
 
-
 ## Features
 
 - Search GitHub users by username
@@ -14,7 +13,7 @@ A GitHub User Search application built with React, Axios, and Tailwind CSS. Sear
 - Loading state while fetching data
 - Error handling for invalid usernames
 - Initial state before searching
-- Searching using the Search button or by pressing Enter
+- Press **Enter** or click the **Search** button to search
 
 ## Tech Stack
 
@@ -23,6 +22,19 @@ A GitHub User Search application built with React, Axios, and Tailwind CSS. Sear
 - Axios
 - Tailwind CSS
 - GitHub REST API
+
+## Project Structure
+
+src
+├── components 
+│ ├── Header 
+│ ├── SearchBar 
+│ ├── InitialState 
+│ ├── Loading 
+│ ├── ErrorMessage 
+│ └── UserCard 
+├── App.jsx 
+└── main.jsx
 
 ## Getting Started
 
@@ -43,12 +55,13 @@ npm run dev
 
 GitHub Users API
 
-https://api.github.com/users/{username}
+https://api.github.com/users
 
-## Possible Enhancements
+## Future Improvements
 
 - Responsive layout for tablet and desktop
 - Display user repositories
 - Display followers and following lists
-- Dark mode
 - Search history
+- Theme toggle (Light/Dark Mode)
+- Debounced search
