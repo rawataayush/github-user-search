@@ -18,7 +18,6 @@ const App = () => {
   }
 
   const handleSearch = () => {
-
     if (!username) {
       return;
     } else {
@@ -42,7 +41,7 @@ const App = () => {
 
   return (
     <>
-    <div className='my-5 mx-4 flex flex-col gap-5'>
+    <div className='my-5 mx-4 flex flex-col gap-3'>
       <Header />
       <SearchBar
         username={username}
@@ -52,7 +51,7 @@ const App = () => {
     </div>
 
     {/* Conditional rendering */}
-    <div className="my-5 mx-4 flex flex-col gap-5">
+    <div className="my-5 mx-8 flex flex-col md:mx-44 md:my-12 lg:mx-96">
       {!loading && !error && !user && <InitialState />}
       {loading && <Loading />}
       {error && <ErrorMessage error={error} />}
