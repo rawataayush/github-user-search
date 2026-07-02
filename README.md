@@ -26,14 +26,23 @@ A GitHub User Search application built with React, Axios, and Tailwind CSS. Sear
 ## Project Structure
 
 src
-├── components 
-│ ├── Header 
-│ ├── SearchBar 
-│ ├── InitialState 
-│ ├── Loading 
-│ ├── ErrorMessage 
-│ └── UserCard 
-├── App.jsx 
+
+├── components
+
+│ ├── Header
+
+│ ├── SearchBar
+
+│ ├── InitialState
+
+│ ├── Loading
+
+│ ├── ErrorMessage
+
+│ └── UserCard
+
+├── App.jsx
+
 └── main.jsx
 
 ## Getting Started
